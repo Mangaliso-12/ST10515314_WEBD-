@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M&M Hotel - Indication Page</title>
+<style>
+  body { margin:0; font-family:Arial; background:#f8f5ef; }
+  header { background:#0a1931; color:#c5a059; padding:20px; text-align:center; }
+  nav { background:white; padding:12px; text-align:center; border-bottom:2px solid #c5a059; position:sticky; top:0; }
+  nav a { margin:0 12px; text-decoration:none; color:#0a1931; font-weight:bold; }
+  .container { max-width:800px; margin:auto; padding:20px; }
+  .indicator { background:white; padding:15px; border-radius:10px; margin:15px 0; display:flex; justify-content:space-between; align-items:center; border-left:6px solid #c5a059; }
+  .available { border-left-color:green; }
+  .limited { border-left-color:orange; }
+  .full { border-left-color:red; }
+  .dot { width:12px; height:12px; border-radius:50%; display:inline-block; }
+  .green { background:green; } .orange { background:orange; } .red { background:red; }
+  a.btn { background:#0a1931; color:#c5a059; padding:10px 20px; text-decoration:none; border-radius:6px; font-weight:bold; }
+</style>
+</head>
+<body>
+
+
+  <h2>🔔 Room Availability Indication</h2>
+
+  <div class="indicator available">
+    <div>
+      <b>Backpacker Dorm - $15/night</b><br>
+      <small>12 beds available</small>
+    </div>
+    <div><span class="dot green"></span> AVAILABLE</div>
+  </div>
+
+  <div class="indicator limited">
+    <div>
+      <b>River View Bungalow - $45/night</b><br>
+      <small>Only 2 left today</small>
+    </div>
+    <div><span class="dot orange"></span> LIMITED</div>
+  </div>
+
+  <div class="indicator available">
+    <div>
+      <b>Karst Mountain Suite - $80/night</b><br>
+      <small>5 rooms available</small>
+    </div>
+    <div><span class="dot green"></span> AVAILABLE</div>
+  </div>
+
+  <div class="indicator full">
+    <div>
+      <b>M&M Luxury Villa - $150/night</b><br>
+      <small>Fully booked - 29 Oct</small>
+    </div>
+    <div><span class="dot red"></span> FULL</div>
+  </div>
+
+  <h2>📋 Hotel Indications</h2>
+  <div style="background:white; padding:20px; border-radius:10px;">
+    <p>✅ Check-in: 2:00 PM | Check-out: 12:00 PM</p>
+    <p>✅ Free WiFi & Breakfast Included</p>
+    <p>✅ Location: On Nam Song River, Vang Vieng</p>
+    <p>✅ Activities: Tubing, Blue Lagoon, Hot Air Balloon</p>
+    <p>⚠️ No smoking inside rooms</p>
+    <p>⚠️ Pets not allowed</p>
+  </div>
+
+  <p style="text-align:center; margin-top:25px;">
+    <a class="btn" href="index.html#enquiry">Book Now in Enquiry</a>
+    <a class="btn" href="index.html#map-section" style="background:#c5a059; color:#0a1931; margin-left:10px;">View Map</a>
+  </p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us — M&M Hotel Vangvieng | English Only • Rands Only</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+      .page-hero {
+        height: 50vh;
+        min-height: 380px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        background: var(--green);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 0.9fr 1.1fr;
+        gap: 30px;
+        margin-top: 40px;
+      }
+
+      .info-box {
+        background: var(--sand);
+        padding: 24px;
+        border-radius: 20px;
+        margin-bottom: 16px;
+        display: flex;
+        gap: 14px;
+      }
+
+      .info-box i {
+        color: var(--gold);
+        font-size: 20px;
+        min-width: 24px;
+      }
+
+      .contact-form {
+        background: #fff;
+        padding: 32px;
+        border-radius: 28px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-form input,
+      .contact-form textarea,
+      .contact-form select {
+        width: 100%;
+        padding: 14px 16px;
+        border-radius: 14px;
+        border: 1.5px solid #e9e2c8;
+        background: var(--sand);
+        font-family: inherit;
+        margin-top: 6px;
+      }
+
+      @media (max-width: 900px) {
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header id="hdr">
+      <div class="container nav">
+        <div class="logo">M&M <span>VANGVIENG</span></div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" style="color: var(--gold);">Contact Us</a></li>
+            <li><a href="index.html#book" class="btn btn-gold" style="padding: 8px 18px;">Book R850</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger" id="openMenu" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <div class="top">
+        <div class="logo" style="color: #fff;">M&M <span>VANGVIENG</span></div>
+        <button class="close" id="closeMenu" aria-label="Close menu"><i class="fas fa-times"></i></button>
+      </div>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+    <section class="page-hero">
+      <div class="container" style="color: #fff;">
+        <span class="eyebrow" style="color: var(--gold);">CONTACT US — ENGLISH ONLY • WE REPLY IN ENGLISH IN 1 HOUR</span>
+        <h1 style="font-size: clamp(36px, 5vw, 62px); line-height: 0.95;">
+          Talk to us in <i style="color: var(--gold); font-weight: 400;">English.</i><br />
+          Pay in <i style="color: var(--gold); font-weight: 400;">Rands.</i>
+        </h1>
+        <p style="margin-top: 14px; opacity: 0.8;">WhatsApp, Email, Phone — all English, all Rands (R).</p>
+      </div>
+    </section>
+
+    <section class="container" style="padding: 80px 0;">
+      <div class="contact-grid">
+        <div>
+          <h2 style="font-size: 36px; color: var(--green); margin-bottom: 20px;">Find us in Vangvieng</h2>
+
+          <div class="info-box">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Address</strong><br />
+              <p style="color: var(--gray); font-size: 14px;">Nam Song Riverside, Vangvieng District, Vientiane Province, Laos — 15 min from town center, 5 min to Blue Lagoon</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone & WhatsApp — English Only</strong><br />
+              <p style="color: var(--gray); font-size: 14px;">+856 20 XXX XXXX<br />We reply in English within 1 hour<br />Currency: Rands (R) Only</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email — English Only</strong><br />
+              <p style="color: var(--gray); font-size: 14px;">english@mmhotel.la<br />booking@mmhotel.la<br />Reply: English, Prices: Rands</p>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Reception Hours</strong><br />
+              <p style="color: var(--gray); font-size: 14px;">24/7 — English speaking staff always<br />Check-in: 2pm • Check-out: 12pm</p>
+            </div>
+          </div>
+
+          <div style="background: var(--green); color: #fff; padding: 20px; border-radius: 20px; margin-top: 20px;">
+            <strong style="color: var(--gold);">All Prices in Rands (R)</strong><br />
+            <span style="font-size: 14px; opacity: 0.9;">Standard: R850 • Deluxe: R1,200 • Executive: R2,200<br />No USD, No Kip, Pay at hotel in Rands</span>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="font-size: 28px; color: var(--green); margin-bottom: 6px;">Send message — English Only</h3>
+          <p style="color: var(--gray); font-size: 14px; margin-bottom: 20px;">We reply in English, prices in Rands (R).</p>
+
+          <label style="font-size: 11px; font-weight: 800;">FULL NAME</label>
+          <input type="text" id="cname" placeholder="Your name in English" required style="margin-bottom: 12px;" />
+
+          <label style="font-size: 11px; font-weight: 800;">EMAIL</label>
+          <input type="email" id="cemail" placeholder="your@email.com" required style="margin-bottom: 12px;" />
+
+          <label style="font-size: 11px; font-weight: 800;">INTERESTED IN — PRICES IN RANDS</label>
+          <select id="ctype" style="margin-bottom: 12px;">
+            <option>Standard Room — R850 / night</option>
+            <option>Deluxe Room — R1,200 / night</option>
+            <option>Executive Suite — R2,200 / night</option>
+            <option>Balloon — R950</option>
+            <option>Kayak — R280</option>
+            <option>General Question</option>
+          </select>
+
+          <label style="font-size: 11px; font-weight: 800;">MESSAGE — ENGLISH ONLY</label>
+          <textarea id="cmsg" rows="5" placeholder="Write your message in English — we reply in English, prices in Rands (R)" required></textarea>
+
+          <button class="btn btn-green" style="width: 100%; margin-top: 16px; padding: 16px;" onclick="sendMsg()">Send Message — English + Rands (R)</button>
+          <small style="display: block; text-align: center; margin-top: 10px; color: #888;">English Only • Rands Only • Reply within 1 hour</small>
+        </div>
+      </div>
+
+      <div style="margin-top: 50px; border-radius: 28px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,.1);">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.38!2d102.44!3d18.93!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31247c2f3b8c0001%3A0x7c5a5b5a5a5a5a5a!2sVangvieng%2C%20Laos!5e0!3m2!1sen!2sza!4v1694857200000"
+          width="100%"
+          height="400"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+          title="M&M Hotel location map"
+        ></iframe>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container f-grid">
+        <div>
+          <div style="font-family: 'Cormorant Garamond'; font-size: 28px; color: #fff;">M&M <span style="color: var(--gold);">VANGVIENG</span></div>
+          <p style="margin-top: 10px;">Contact in English, pay in Rands.</p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <p style="line-height: 2;"><a href="index.html">Home</a><br /><a href="about.html">About Us</a><br /><a href="services.html">Services</a><br /><a href="contact.html">Contact Us</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p style="line-height: 2;">+856 20 XXX XXXX<br />english@mmhotel.la<br />Vangvieng, Laos</p>
+        </div>
+        <div>
+          <h4>Rands Only</h4>
+          <p style="line-height: 2;">R850 / R1,200 / R2,200<br />English Only<br />Pay at hotel</p>
+        </div>
+      </div>
+      <div class="container f-bottom"><p>© 2026 M&M — Contact Us — Rands Only</p><p>English Only</p></div>
+    </footer>
+
+    <script>
+      const openMenu = document.getElementById('openMenu');
+      const closeMenu = document.getElementById('closeMenu');
+      const mobileMenu = document.getElementById('mobileMenu');
+      const hdr = document.getElementById('hdr');
+
+      if (openMenu) {
+        openMenu.addEventListener('click', () => mobileMenu.classList.add('active'));
+      }
+
+      if (closeMenu) {
+        closeMenu.addEventListener('click', () => mobileMenu.classList.remove('active'));
+      }
+
+      if (hdr) {
+        window.addEventListener('scroll', () => {
+          hdr.classList.toggle('scrolled', window.scrollY > 30);
+        });
+      }
+
+      function sendMsg() {
+        const name = document.getElementById('cname').value.trim();
+        const email = document.getElementById('cemail').value.trim();
+        const type = document.getElementById('ctype').value;
+        const message = document.getElementById('cmsg').value.trim();
+
+        if (!name) return alert('Please enter your name in English');
+        if (!email) return alert('Please enter your email');
+        if (!message) return alert('Please write a message');
+
+        alert(
+          'Thank you ' + name + '!\n\n' +
+          'Your inquiry: ' + type + '\n' +
+          'We will reply in English within 1 hour. Prices in Rands (R).\n\n' +
+          'Email: ' + email
+        );
+      }
+    </script>
+  </body>
+</html>
